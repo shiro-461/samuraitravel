@@ -108,3 +108,17 @@ INSERT IGNORE INTO faqs (id, question, answer) VALUES (17, '予約一覧はど�
 INSERT IGNORE INTO faqs (id, question, answer) VALUES (18, '会員情報はどのように表示されますか？', '氏名、フリガナ、郵便番号、住所、電話番号、メールアドレスが表示されます。');
 INSERT IGNORE INTO faqs (id, question, answer) VALUES (19, '会員情報を編集するにはどうすれば良いですか？', '会員詳細ページの「編集」リンクから編集ページに遷移できます。');
 INSERT IGNORE INTO faqs (id, question, answer) VALUES (20, '会員情報を変更した後、どこに遷移しますか？', '編集完了後、会員詳細ページに遷移します。');
+
+/* favoritesテーブル */
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (1, 1, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (2, 2, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (3, 3, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (4, 4, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (5, 5, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (6, 6, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (7, 7, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (8, 8, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (9, 9, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (10, 10, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (11, 11, 1);
+INSERT IGNORE INTO favorites (id, house_id, user_id) VALUES (12, 12, 1);
